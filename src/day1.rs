@@ -15,7 +15,16 @@ pub fn part_2(input: &[u64]) -> usize {
     part_1(&window_sums)
 }
 
-const _RAW_TEST_INPUT: &str = "199\n200\n208\n210\n200\n207\n240\n269\n260\n263";
+const _RAW_TEST_INPUT: &str = "199
+200
+208
+210
+200
+207
+240
+269
+260
+263";
 
 #[test]
 fn test_part_1() {
